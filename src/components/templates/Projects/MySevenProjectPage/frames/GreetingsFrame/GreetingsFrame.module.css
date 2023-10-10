@@ -1,0 +1,8 @@
+.greetingsFrame_link {
+    background: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}

@@ -1,0 +1,23 @@
+.logo {
+    @apply font-primary;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 88%;
+
+    background: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.membership_card {
+    background: linear-gradient(180deg, rgba(255, 198, 51, 0.08) 0%, rgba(190, 137, 0, 0.08) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+@screen lg {
+    .logo {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,46 @@
+.button_root {
+    @apply
+    px-5
+    h-[41px]
+    w-full
+    bg-[#ffffff]
+    inline-flex
+    justify-center
+    items-center
+    text-left
+    !font-[600]
+    font-primary
+    text-sm
+    uppercase
+    tracking-[0.1em]
+    text-[#0E0121]
+    box-border;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.button_root:hover {
+    background: #CED7E2;
+}
+
+.button_root:focus {
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+    border-radius: 12px;
+
+}
+
+.button_root:active {
+    background: #DDE5EF;
+}
+
+.button_root[disabled] {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+@screen lg {
+    .button_root {
+        @apply inline-block w-auto;
+    }
+}

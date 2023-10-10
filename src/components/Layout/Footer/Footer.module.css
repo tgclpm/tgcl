@@ -1,0 +1,22 @@
+.logo {
+    @apply font-primary;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 88%;
+
+    background: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.link {
+    @apply text-center text-[16px] leading-[1.2] text-white whitespace-pre;
+}
+
+.link:hover {
+    background: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

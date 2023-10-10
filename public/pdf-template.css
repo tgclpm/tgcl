@@ -1,0 +1,665 @@
+.final-final {
+    width: 595px;
+    height: 842px;
+    position: relative;
+    background-color: white;
+    overflow: clip;
+    text-align: left;
+}
+
+.final-purchaseconfirmatio {
+    left: 30px;
+    top: 30px;
+    position: absolute;
+    font-family: Sora;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 0.9;
+    background: linear-gradient(
+            90deg,
+            rgba(0, 110, 239, 1),
+            rgba(0, 206, 234, 1)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    display: inline;
+    margin: 0px;
+}
+
+.final-this-is-to-certify-t {
+    width: 515px;
+    position: absolute;
+    left: 30px;
+    top: 86px;
+    line-height: 1;
+    display: inline-block;
+    font-family: Sora;
+    font-weight: 400;
+}
+
+.final-this-is-to-certify-ttext-0x {
+    font-size: 9px;
+    line-height: normal;
+    color: rgba(130, 134, 152, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-component-text-1x {
+    font-size: 9px;
+    line-height: normal;
+    color: rgba(0, 118, 226, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-terms-of-service-text-2x {
+    font-size: 9px;
+    line-height: normal;
+    text-decoration: underline;
+    color: rgba(0, 118, 226, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-component-text-3x {
+    font-size: 9px;
+    line-height: normal;
+    color: rgba(132, 132, 132, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-frame-48098043x {
+    position: absolute;
+    left: 30px;
+    top: 307px;
+    gap: 38px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+}
+
+.final-group-48098044x {
+    width: 535px;
+    height: 396px;
+    position: relative;
+    font-family: Sora;
+}
+
+.final-transfer-or-sale-of {
+    width: 535px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    line-height: 1;
+    display: inline-block;
+}
+
+.final-transfer-or-sale-of-text-0x {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-transfer-or-sale-of-text-0x-1 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-transfer-or-sale-of-text-0x-2 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-website-text-1x {
+    font-size: 9px;
+    line-height: 1.2;
+    text-decoration: underline;
+    color: rgba(0, 118, 226, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-buyer-must-provi-text-2x {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-buyer-must-provi-text-2x-1 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-buyer-must-provi-text-2x-2 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.link {
+    color: rgba(0, 118, 226, 1);
+    text-decoration: underline;
+}
+
+.final-my-seven-campaign-text-3x {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(0, 118, 226, 1);
+    text-decoration: underline;
+    display: inline;
+    margin: 0px;
+}
+
+.final-bmust-be-create-text-4x {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-here-text-5x {
+    font-size: 9px;
+    line-height: 1.2;
+    text-decoration: underline;
+    color: rgba(0, 118, 226, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-if-buyer-does-not-text-6x {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-if-buyer-does-not-text-6x-1 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-if-buyer-does-not-text-6x-2 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-if-buyer-does-not-text-6x-3 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-if-buyer-does-not-text-6x-4 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-if-buyer-does-not-text-6x-5 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-website-text-7x {
+    font-size: 9px;
+    line-height: 1.2;
+    text-decoration: underline;
+    color: rgba(0, 118, 226, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-the-future-value-text-8x {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-the-future-value-text-8x-1 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-the-future-value-text-8x-2 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-the-future-value-text-8x-3 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-the-future-value-text-8x-4 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-the-future-value-text-8x-5 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-the-future-value-text-8x-6 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-the-future-value-text-8x-7 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-the-future-value-text-8x-8 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-the-future-value-text-8x-9 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-the-future-value-text-8x-10 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-the-future-value-text-8x-11 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-the-future-value-text-8x-12 {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-terms-of-service-text-9x {
+    font-size: 9px;
+    line-height: 1.2;
+    text-decoration: underline;
+    color: rgba(0, 118, 226, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-component-text-10x {
+    font-size: 9px;
+    line-height: 1.2;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-group-48098042x {
+    width: 179px;
+    height: 71px;
+    position: relative;
+}
+
+.final-image-9x {
+    width: 70px;
+    left: 60.89%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    position: absolute;
+    background: url(https://uortjlczjmucmpaqqhqm.supabase.co/storage/v1/object/public/firejet-converted-images/images/81019fc696e9f8d620a5ed83eaa4bfc15105112d:0.webp) no-repeat center / contain;
+}
+
+.final-group-48098035x {
+    width: 99px;
+    position: absolute;
+    left: 0%;
+    right: 44.69%;
+    top: 28.17%;
+    bottom: 25.35%;
+}
+
+.final-shift-investment-ll {
+    left: 0%;
+    right: 25.25%;
+    top: 0%;
+    bottom: 75.76%;
+    position: absolute;
+    font-family: Sora;
+    font-size: 6px;
+    line-height: normal;
+    color: rgba(7, 7, 17, 1);
+    text-transform: uppercase;
+    display: inline;
+    margin: 0px;
+}
+
+.final-shift-dao-team {
+    left: 0%;
+    right: 2.02%;
+    top: 39.39%;
+    bottom: 12.12%;
+    position: absolute;
+    font-family: Just Me Again Down Here;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    line-height: 0.8;
+    color: rgba(19, 89, 170, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-purchase-date {
+    left: 30px;
+    top: 147px;
+    position: absolute;
+    font-family: Sora;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-issuer {
+    left: 30px;
+    top: 166px;
+    position: absolute;
+    font-family: Sora;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-buyers-email {
+    left: 30px;
+    top: 185px;
+    position: absolute;
+    font-family: Sora;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-certificate-id {
+    left: 30px;
+    top: 204px;
+    position: absolute;
+    font-family: Sora;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-purchase-price {
+    left: 30px;
+    top: 223px;
+    position: absolute;
+    font-family: Sora;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-number-of-tokens {
+    left: 30px;
+    top: 242px;
+    position: absolute;
+    font-family: Sora;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.final-group-48098021x {
+    width: 102.79px;
+    height: 11px;
+    position: absolute;
+    left: 405.79px;
+    top: 158px;
+    font-family: Sora;
+    font-weight: 400;
+    color: rgba(7, 7, 17, 1);
+}
+
+.final-february-2023x {
+    width: 102.79425811767578px;
+    left: -100%;
+    right: 100%;
+    top: -100%;
+    bottom: 100%;
+    position: absolute;
+    font-size: 9px;
+    line-height: normal;
+    margin: 0px;
+}
+
+.final-group-48098020x {
+    width: 137.89px;
+    height: 11px;
+    position: absolute;
+    left: 440.89px;
+    top: 177px;
+    font-family: Sora;
+    font-weight: 400;
+    color: rgba(7, 7, 17, 1);
+}
+
+.final-shiftinvestment-ll {
+    width: 137.8947296142578px;
+    left: -100%;
+    right: 100%;
+    top: -100%;
+    bottom: 100%;
+    position: absolute;
+    font-size: 9px;
+    line-height: normal;
+    margin: 0px;
+}
+
+.final-group-48098017x {
+    width: 155.44px;
+    height: 11px;
+    position: absolute;
+    left: 458.44px;
+    top: 215px;
+    font-family: Sora;
+    font-weight: 400;
+    color: rgba(7, 7, 17, 1);
+}
+
+.final-o5cunomwi-5p-9485e-3p-0x {
+    width: 155.44497680664062px;
+    left: -100%;
+    right: 100%;
+    top: -100%;
+    bottom: 100%;
+    position: absolute;
+    font-size: 9px;
+    line-height: normal;
+    margin: 0px;
+}
+
+.final-group-48098019x {
+    width: 146.67px;
+    height: 11px;
+    position: absolute;
+    left: 449.67px;
+    top: 196px;
+    font-family: Sora;
+    font-weight: 400;
+    color: rgba(7, 7, 17, 1);
+}
+
+.final-group-48098018x {
+    width: 146.66986083984375px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.final-oleg-mateandmate-com {
+    width: 146.66986083984375px;
+    left: -100%;
+    right: 100%;
+    top: -100%;
+    bottom: 100%;
+    position: absolute;
+    font-size: 9px;
+    line-height: normal;
+    margin: 0px;
+}
+
+.final-group-48098024x {
+    width: 63.93px;
+    height: 11px;
+    position: absolute;
+    left: 366.93px;
+    top: 234px;
+    font-family: Sora;
+    font-weight: 400;
+    color: rgba(7, 7, 17, 1);
+}
+
+.final-busd {
+    width: 63.933013916015625px;
+    left: -100%;
+    right: 100%;
+    top: -100%;
+    bottom: 100%;
+    position: absolute;
+    font-size: 9px;
+    line-height: normal;
+    margin: 0px;
+}
+
+.final-sdms-tokens {
+    width: 122.85px;
+    left: 303px;
+    top: 242px;
+    position: absolute;
+    font-family: Sora;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(7, 7, 17, 1);
+    display: inline;
+    margin: 0px;
+}
+
+.values-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    left: 30px;
+    top: 130px;
+    width: 100%;
+}
+
+.values-item-title {
+    font-family: Sora;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(7, 7, 17, 1);
+    display: inline-block;
+}
+
+.values-item-title:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}

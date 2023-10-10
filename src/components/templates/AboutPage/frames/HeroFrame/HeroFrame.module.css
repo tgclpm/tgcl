@@ -1,0 +1,66 @@
+.wrapper {
+    @apply relative flex flex-col items-center text-center text-white w-[100%];
+    background: #010608;
+}
+
+@screen lg {
+    .wrapper {
+        height: auto;
+    }
+}
+
+.rightHeroText {
+	z-index: 10;
+	padding-top: 414px;
+	text-align: left;
+    display: flex;
+    flex-direction: row;
+    padding-left: 87px;
+	background: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.rightHeroTextMobile {
+	z-index: 10;
+	transform: rotate(-90deg);
+    position: 20px;
+    left: 20px;
+    position: relative;
+    left: -263px;
+    top: 40%;
+	background: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.circle {
+	position: absolute;
+	width: 776.01px;
+	height: 776.01px;
+	left: 56.5%;
+	top: -230.87px;
+	border-radius: 50%;
+	background: linear-gradient(180deg, rgba(11, 33, 43, 0) 1.81%, rgba(0, 0, 0, 0) 67.83%), linear-gradient(126.81deg, rgba(7, 24, 32, 0.6) 14.75%, rgba(0, 0, 0, 0) 71.17%), linear-gradient(72.1deg, rgba(7, 24, 32, 0.6) 16.28%, rgba(0, 0, 0, 0) 73.54%), #020506;
+	box-shadow: -111px 0px 160px -64.2154px rgba(21, 205, 205, 0.14), -291px 0px 250px -193.551px rgba(62, 169, 255, 0.38);
+	transform: rotate(0deg);
+}
+
+.circleMobile {
+	position: absolute;
+	width: 776.01px;
+	height: 776.01px;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+	top: 406px;
+	border-radius: 50%;
+	background: linear-gradient(180deg, rgba(11, 33, 43, 0) 1.81%, rgba(0, 0, 0, 0) 67.83%), linear-gradient(126.81deg, rgba(7, 24, 32, 0.6) 14.75%, rgba(0, 0, 0, 0) 71.17%), linear-gradient(72.1deg, rgba(7, 24, 32, 0.6) 16.28%, rgba(0, 0, 0, 0) 73.54%), #020506;
+	box-shadow: -111px 0px 160px -64.2154px rgba(21, 205, 205, 0.14), -291px 0px 250px -193.551px rgba(62, 169, 255, 0.38);
+	transform: rotate(90deg);
+}

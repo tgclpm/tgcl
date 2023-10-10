@@ -1,0 +1,55 @@
+.wrapper {
+    @apply relative flex flex-col items-center text-center text-white w-[100%];
+	opacity: 0.9;
+}
+
+
+.imageWrapper {
+	position: absolute;
+	width: 959px;
+	height: 959px;
+    left: -93%;
+    top: -110%;
+
+	background: radial-gradient(50% 50% at 50% 50%, #00154C 0%, rgba(0, 11, 39, 0) 100%);
+	opacity: 0.9;
+}
+
+.imageWrapperSecond {
+	position: absolute;
+	width: 1698px;
+	height: 1698px;
+	left: 0%;
+	top: 0%;
+
+	background: radial-gradient(57.79% 57.79% at 50% 50%, #12215D 0%, rgba(0, 0, 0, 0) 100%);
+	opacity: 0.9;
+}
+
+.imageWrapperSecondMobile {
+	position: absolute;
+	width: 1534px;
+	height: 1534px;
+	left: 0%;
+	top: 0%;
+
+	background: radial-gradient(57.79% 57.79% at 50% 50%, #12215D 0%, rgba(0, 0, 0, 0) 100%);
+	opacity: 0.9;
+}
+
+.imageWrapperMobile {
+	position: absolute;
+	width: 800px;
+	height: 800px;
+	left: -25%;
+    top: -115%;
+
+	background: radial-gradient(61.1% 61.1% at 42.19% 46.69%, #00154C 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+	opacity: 0.7;
+}
+
+@screen lg {
+    .wrapper {
+        height: auto;
+    }
+}

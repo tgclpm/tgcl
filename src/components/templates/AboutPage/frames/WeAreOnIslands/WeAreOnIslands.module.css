@@ -1,0 +1,21 @@
+
+
+.imageWrapper {
+	position: absolute;
+    width: 800px;
+    height: 800px;
+    left: 74%;
+	top: 10%;
+    background: radial-gradient(46.79% 57.79% at 50% 50%, #3A144E 0%, rgba(13, 4, 17, 0) 100%);
+    opacity: 0.9;
+}
+.imageWrapperMobile {
+	position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 57%;
+    top: 73%;
+
+	background: radial-gradient(57.79% 57.79% at 50% 50%, #3A144E 0%, rgba(13, 4, 17, 0) 100%);
+	opacity: 0.9;
+}

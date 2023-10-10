@@ -1,0 +1,74 @@
+.logo {
+    @apply font-primary;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 88%;
+
+    background: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.membership_card {
+    border: 1px solid rgba(180, 205, 255, 0.2);
+    background: linear-gradient(180deg, rgba(255, 198, 51, 0.08) 0%, rgba(190, 137, 0, 0.08) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+.radial_left {
+    position: absolute;
+    z-index: -1;
+    width: 257vw;
+    height: 430vw;
+    left: -160vw;
+    bottom: -150vw;
+
+    background: radial-gradient(45.54% 45.54% at 50% 50%, #AB8B28 0%, rgba(1, 7, 8, 0.48) 50%);
+    opacity: 0.28;
+    border-radius: 50%;
+}
+
+.radial_right {
+    position: absolute;
+    z-index: -1;
+    width: 597vw;
+    height: 280vw;
+    right: -345vw;
+    bottom: 40vw;
+
+    background: radial-gradient(58.31% 50% at 50% 50%, #4C2500 0%, rgba(0, 0, 0, 0) 50%);
+    opacity: 0.74;
+    transform: rotate(-80.53deg);
+    border-radius: 50%;
+}
+
+@screen lg {
+    .radial_left {
+        display: block;
+        min-width: 1540px;
+        min-height: 1836px;
+        width: 175%;
+        height: 173%;
+        left: -90%;
+        bottom: -1500px;
+    }
+
+    .radial_right {
+        display: block;
+        min-width: 2240px;
+        min-height: 1439px;
+        width: 175%;
+        height: 173%;
+        right: -100%;
+        left: auto;
+        bottom: -1400px;
+    }
+}
+
+@screen lg {
+    .logo {
+        font-size: 30px;
+    }
+}

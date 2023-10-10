@@ -1,0 +1,55 @@
+.wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.radial_purple {
+    display: none;
+    position: absolute;
+    z-index: -1;
+    width: 144%;
+    height: 202vw;
+    left: 15%;
+    top: -120vw;
+
+    background: radial-gradient(57.79% 57.79% at 50% 50%, #3A144E 0%, rgba(13, 4, 17, 0) 50%);
+    opacity: 0.9;
+    border-radius: 50%;
+}
+
+.radial_blue {
+    display: none;
+    position: absolute;
+    z-index: -1;
+    width: 539.42px;
+    height: 758.93px;
+    left: 92.58px;
+    top: -191px;
+
+    background: radial-gradient(44.77% 44.77% at 50% 46.09%, #332D82 0%, rgba(25, 19, 56, 0) 70%);
+    opacity: 0.9;
+    border-radius: 50%;
+}
+
+@screen lg {
+    .radial_purple {
+        display: block;
+        min-width: 1540px;
+        min-height: 1836px;
+        width: 175%;
+        height: 173%;
+        left: -70%;
+        top: -600px;
+    }
+
+    .radial_blue {
+        display: block;
+        min-width: 2240px;
+        min-height: 1439px;
+        width: 175%;
+        height: 173%;
+        right: -80%;
+        left: auto;
+        top: -40%;
+    }
+}

@@ -1,0 +1,43 @@
+.wrapper {
+    @apply relative flex flex-col items-center text-center text-white w-[100%];
+	opacity: 0.9;
+}
+
+.imageWrapper {
+    position: absolute;
+    width: 132%;
+    height: 198%;
+    /* left: -47.35px; */
+    top: -119%;
+
+	background: radial-gradient(58.31% 50% at 50% 50%, #4C2500 0%, rgba(0, 0, 0, 0) 100%);
+	opacity: 0.74;
+	transform: rotate(-80.53deg);
+}
+
+.imageWrapperFirst {
+	position: absolute;
+	width: 1017px;
+	height: 1017px;
+    left: -139%;
+    top: -58%;
+
+	background: radial-gradient(45.54% 45.54% at 50% 50%, #AB8B28 0%, rgba(1, 7, 8, 0.48) 100%);
+	opacity: 0.36;
+}
+.imageWrapperSecond {
+	position: absolute;
+	width: 540px;
+	height: 540px;
+    left: -58%;
+    top: 0%;
+
+	background: radial-gradient(45.54% 45.54% at 50% 50%, #AB8B28 0%, rgba(1, 7, 8, 0.48) 100%);
+	opacity: 0.36;
+}
+
+@screen lg {
+    .wrapper {
+        height: auto;
+    }
+}

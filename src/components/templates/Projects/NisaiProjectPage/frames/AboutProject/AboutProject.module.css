@@ -1,0 +1,19 @@
+.link {
+    @apply whitespace-pre-line text-center lg:whitespace-normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+
+    background: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.link:hover {
+    background: white;
+    background-clip: text;
+}

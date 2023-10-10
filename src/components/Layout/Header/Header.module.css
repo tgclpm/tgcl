@@ -1,0 +1,52 @@
+.logo {
+    @apply font-primary;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 88%;
+    word-break: keep-all;
+    flex-shrink: 0;
+
+    background: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.link {
+    @apply text-center text-[36px] leading-[1.2] text-white;
+}
+
+.link:hover {
+    background: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header {
+    position: fixed;
+    background-color: #0E0121;
+}
+
+@screen lg {
+    .logo {
+        font-size: 24px;
+    }
+
+    .header {
+        background: rgba(1, 6, 8, 0.8);
+        backdrop-filter: blur(25px);
+    }
+
+    .link {
+        font-size: 16px;
+    }
+}
+
+.gradient {
+    position: absolute;
+    width: 1534px;
+    height: 1534px;
+    background: radial-gradient(57.79% 57.79% at 50% 50%, #12215D 0%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0.9;
+}

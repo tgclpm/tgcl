@@ -1,0 +1,56 @@
+
+.chatText {
+	font-family: var(--font-primary);
+	text-align: start;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 88%;
+	text-transform: uppercase;
+	background: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.imageWrapper {
+    position: absolute;
+	width: 1698px;
+	height: 1698px;
+    left: 41%;
+    top: -97%;
+
+	background: radial-gradient(45.79% 35.79% at 50% 50%, #12215D 0%, rgba(0, 0, 0, 0) 100%);
+	opacity: 0.9;
+	z-index: -1;
+}
+.imageWrapperMobile {
+	position: absolute;
+	width: 1534px;
+	height: 1534px;
+    left: -36%;
+    top: -20%;
+
+	background: radial-gradient(57.79% 57.79% at 50% 50%, #12215D 0%, rgba(0, 0, 0, 0) 100%);
+	opacity: 0.9;
+	z-index: -1;
+}
+
+@screen lg {
+
+	.chatText{
+		font-family: var(--font-primary);
+		font-style: normal;
+		font-weight: 700;
+		font-size: 100px;
+		text-align: center;
+		line-height: 88%;
+		text-transform: uppercase;
+		background: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+	}
+}

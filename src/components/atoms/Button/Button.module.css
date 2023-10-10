@@ -1,0 +1,36 @@
+.button_root {
+    @apply
+    px-[11px]
+    py-[13px]
+    bg-white
+    inline-flex
+    justify-center
+    items-center
+    text-center
+    font-[600]
+    font-primary
+    text-[12px]
+    uppercase
+    tracking-[0.1em]
+    leading-[1.2]
+    rounded-[10px]
+    text-[#0E0121];
+}
+
+.button_root:hover {
+    @apply bg-[#CED7E2];
+}
+
+.button_root:disabled {
+    @apply bg-[#CED7E2]/40;
+}
+
+.button_root:focus {
+    @apply bg-[#CED7E2];
+}
+
+@screen lg {
+    .button_root {
+        @apply inline-block w-auto text-[14px] px-[24px] py-[12px];
+    }
+}

@@ -1,0 +1,117 @@
+.heading_h1 {
+    @apply text-[40px] text-center uppercase;
+    font-family: var(--font-primary);
+    color: #E9ECF0;
+    font-weight: 800;
+    line-height: 1;
+
+    @screen lg {
+        font-size: 69px;
+    }
+}
+
+.heading_h2 {
+    font-family: var(--font-primary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E9ECF0;
+    line-height: 100%;
+
+    @screen lg {
+        font-size: 55px;
+    }
+}
+
+.heading_h3 {
+    font-family: var(--font-primary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E9ECF0;
+
+    @screen lg {
+        font-size: 40px;
+    }
+}
+
+.heading_h4 {
+    font-family: var(--font-primary);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E9ECF0;
+
+    @screen lg {
+        font-size: 24px;
+        line-height: 100%;
+    }
+}
+
+.heading_subtitle {
+    font-family: var(--font-primary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+
+    @screen lg {
+        font-size: 20px;
+        line-height: 120%;
+    }
+}
+
+.heading {
+    font-family: var(--font-primary);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #E9ECF0;
+
+@screen lg {
+    font-size: 50px;
+    line-height: 100%;
+}
+}
+
+.heading_body1 {
+    font-family: var(--font-primary);
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: 300;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+
+    @screen lg {
+        font-size: 18px;
+    }
+}
+
+.heading_body2 {
+    font-family: var(--font-primary);
+    font-size: 14px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.heading_body3 {
+    font-family: var(--font-primary);
+    font-size: 12px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+
+}

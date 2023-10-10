@@ -1,0 +1,22 @@
+
+
+.imageWrapper {
+	position: absolute;
+	width: 959px;
+	height: 959px;
+    left: -21%;
+    top: 42%;
+
+	background: radial-gradient(50% 50% at 50% 50%, #00154C 0%, rgba(0, 11, 39, 0) 100%);
+	opacity: 0.9;
+}
+.imageWrapperSecond {
+	position: absolute;
+	width: 540px;
+	height: 540px;
+    left: -42%;
+    top: 67%;
+
+	background: radial-gradient(50% 50% at 50% 50%, #00154C 0%, rgba(0, 11, 39, 0) 100%);
+	opacity: 0.9;
+}

@@ -1,0 +1,56 @@
+
+.bg{
+	position: absolute;
+	width: 1534px;
+	height: 1534px;
+	left: -321px;
+	top: -40px;
+    z-index: -1;
+	background: radial-gradient(57.79% 57.79% at 50% 50%, #12215D 0%, rgba(0, 0, 0, 0) 70%);
+	opacity: 0.9;
+}
+.text{
+	font-family: var(--font-primary);
+	text-align: start;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 88%;
+	text-transform: uppercase;
+	background: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+
+
+}
+
+@screen lg {
+
+	.bg{
+		position: absolute;
+		width: 1698px;
+		height: 1698px;
+		left: 431px;
+		top: calc(50% - 1698px/2 + 641px);
+
+		background: radial-gradient(57.79% 57.79% at 50% 50%, #12215D 0%, rgba(0, 0, 0, 0) 80%);
+		opacity: 0.9;
+
+	}
+	.text{
+		font-family: var(--font-primary);
+		font-style: normal;
+		font-weight: 700;
+		font-size: 100px;
+		text-align: center;
+		line-height: 88%;
+		text-transform: uppercase;
+		background: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+	}
+}

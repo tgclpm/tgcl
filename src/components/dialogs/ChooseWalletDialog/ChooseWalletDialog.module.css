@@ -1,0 +1,53 @@
+.dialogContentWrapper {
+    @apply relative px-4 py-10;
+    background: linear-gradient(360deg, #3025AB 0%, #17014D 100%);
+
+    @screen lg {
+        @apply absolute left-0 top-0 flex flex-row align-middle h-[100%] overflow-hidden w-[100%] p-0;
+    }
+}
+
+.dialogTitle {
+    @apply uppercase mb-[40px] mt-[32px] text-[18px] text-white uppercase leading-[110%] font-bold text-center;
+
+
+    @screen lg {
+        @apply text-[32px];
+    }
+
+    span {
+        background: linear-gradient(90deg, #DA3D15 -2.99%, #FE7801 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+
+        &::selection {
+            color: red !important;
+            background-color: transparent !important;
+            -webkit-background-clip: initial;
+            -webkit-text-fill-color: initial;
+            background-clip: initial;
+            text-fill-color: transparent;
+        }
+    }
+
+    h2::selection {
+        color: red !important;
+        background-color: transparent !important;
+        -webkit-background-clip: initial;
+        -webkit-text-fill-color: initial;
+        background-clip: initial;
+        text-fill-color: transparent;
+    }
+}
+
+.dialogButton {
+    @apply absolute right-4 top-4 inline-flex items-center justify-center w-[30px] h-[30px] rounded-full bg-white;
+}
+
+@screen lg {
+    .dialogButton {
+        @apply right-8 top-8 w-[50px] h-[50px]
+    }
+}

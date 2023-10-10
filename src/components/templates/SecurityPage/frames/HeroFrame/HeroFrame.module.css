@@ -1,0 +1,39 @@
+.wrapper {
+    @apply relative flex flex-col items-center text-center text-white w-[100%];
+	opacity: 0.9;
+}
+
+.imageWrapper {
+	position: absolute;
+	width: 2240px;
+	height: 1446px;
+    left: 18%;
+    top: -76%;
+
+	background: radial-gradient(32.79% 57.79% at 50% 50%, #3A144E 0%, rgba(13, 4, 17, 0) 100%);
+	opacity: 0.9;
+}
+
+.linkText {
+	z-index: 10;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 160%;
+
+	background: linear-gradient(90deg, #1282E4 0%, #0FD3E1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.linkText:hover {
+	background: white;
+    background-clip: text;
+}
+
+@screen lg {
+    .wrapper {
+        height: auto;
+    }
+}

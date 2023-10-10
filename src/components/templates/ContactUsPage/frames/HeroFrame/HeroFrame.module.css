@@ -1,0 +1,61 @@
+.contacts{
+	box-sizing: border-box;
+	position: relative;
+	padding: 7px;
+	display: flex;
+	gap: 20px;
+	width: 100%;
+	align-items: center;
+	background: linear-gradient(270deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+	backdrop-filter: blur(10px);
+	/* Note: backdrop-filter has minimal browser support */
+
+	border-radius: 100px;
+}
+
+.gradient{
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	left: -33px;
+	top: -33px;
+	opacity: 0.2;
+	filter: blur(8.75px);
+}
+.bg{
+	position: absolute;
+	width: 1431px;
+	height: 1431px;
+	left: -861px;
+	top: -659px;
+	z-index: -1;
+	background: radial-gradient(57.79% 57.79% at 50% 50%, #12215D 0%, rgba(0, 0, 0, 0) 80%);
+	opacity: 0.9;
+}
+
+@screen lg {
+	.contacts{
+		box-sizing: border-box;
+		position: relative;
+		padding: 7px;
+		display: flex;
+		gap: 20px;
+		width: 293px;
+		align-items: center;
+		background: linear-gradient(270deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+		backdrop-filter: blur(10px);
+		/* Note: backdrop-filter has minimal browser support */
+
+		border-radius: 100px;
+	}
+	.bg{
+		position: absolute;
+		width: 1698px;
+		height: 1698px;
+		left: -849px;
+		top: -849px;
+        z-index: -1;
+		background: radial-gradient(57.79% 57.79% at 50% 50%, #12215D 0%, rgba(0, 0, 0, 0) 70%);
+		opacity: 0.9;
+	}
+}

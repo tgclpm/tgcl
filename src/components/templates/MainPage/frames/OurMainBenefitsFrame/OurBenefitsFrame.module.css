@@ -1,0 +1,28 @@
+.bg {
+    position: absolute;
+    width: 1534px;
+    height: 1534px;
+    background: radial-gradient(57.79% 57.79% at 50% 50%, #12215D 0%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0.9;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+
+}
+@screen lg {
+    .bg {
+        position: absolute;
+        width: 1534px;
+        height: 1534px;
+        left: 27.5781%;
+        top: 744px;
+        background: radial-gradient(57.79% 57.79% at 50% 50%, #12215D 0%, rgba(0, 0, 0, 0) 90%);
+        opacity: 0.9;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        z-index: -1;
+
+    }
+}

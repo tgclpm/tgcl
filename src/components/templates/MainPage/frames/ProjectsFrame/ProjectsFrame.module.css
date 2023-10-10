@@ -1,0 +1,50 @@
+.card {
+    @apply flex flex-col justify-between h-[232px] lg:w-[273px] lg:h-[440px];
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(119, 119, 119, 0.05) 100%);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    gap: 10px;
+    border-radius: 20px;
+}
+.mainCard {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(142, 142, 142, 0.08) 0%, rgba(20, 20, 20, 0.08) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #060225 95.83%), linear-gradient(90deg, #1E1978 0%, #48065D 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+.bg {
+}
+@screen lg {
+    .bg {
+        position: absolute;
+        width: 2449px;
+        height: 1471px;
+        left: -1510px;
+        top: -173px;
+        background: radial-gradient(44.77% 44.77% at 50% 46.09%, #332D82 0%, rgba(25, 19, 56, 0) 80%);
+        opacity: 0.9;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        z-index: -1;
+
+    }
+    .mainCard {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px;
+        gap: 20px;
+        width: 333px;
+        background: linear-gradient(180deg, rgba(142, 142, 142, 0.08) 0%, rgba(20, 20, 20, 0.08) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #060225 95.83%), linear-gradient(90deg, #1E1978 0%, #48065D 100%);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+    }
+}

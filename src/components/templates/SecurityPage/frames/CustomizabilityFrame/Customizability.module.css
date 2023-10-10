@@ -1,0 +1,31 @@
+.wrapper {
+    @apply relative flex flex-col items-center text-center text-white w-[100%];
+	opacity: 0.9;
+}
+
+
+.imageWrapper {
+	position: absolute;
+	width: 1076px;
+	height: 1076px;
+	left: -222%;
+    top: -129%;
+	background: radial-gradient(45% 57.79% at 50% 50%, #132B3D 0%, rgba(0, 0, 0, 0) 100%);
+	opacity: 0.7;
+}
+
+.imageWrapperMobile {
+	position: absolute;
+	width: 800px;
+	height: 800px;
+	left: -84%;
+	top: -129%;
+	background: radial-gradient(57.79% 57.79% at 50% 50%, #132B3D 0%, rgba(0, 0, 0, 0) 100%);
+	opacity: 0.7;
+}
+
+@screen lg {
+    .wrapper {
+        height: auto;
+    }
+}
